@@ -1,14 +1,18 @@
 {
-  "name": "mini-webpack",
+  "name": "@mutterzz/mini-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is test package, do not use it!",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "前端",
+    "打包器",
+    "mini-webpack"
+  ],
+  "author": "mutterzz",
   "license": "ISC",
   "devDependencies": {
     "@babel/parser": "^7.20.15",
@@ -18,5 +22,16 @@
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutter45/mini-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mutter45/mini-webpack/issues"
+  },
+  "homepage": "https://github.com/Mutter45/mini-webpack#readme"
 }
